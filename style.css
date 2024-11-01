@@ -1,0 +1,136 @@
+
+.header {
+    background-image: url(js.png);
+    padding: 200px;
+    background-repeat:no-repeat;
+
+}
+.header h1 {
+    text-align: center;
+    margin-top: -15px;
+    color:white;
+    font-size: 50px;
+    font-family: Roboto, 'Times New Roman';
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 10px;
+}
+
+.header-text {
+    text-align:left;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: white;
+}
+.header1 {
+    float: left;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: Roboto, 'Times New Roman';
+    font-weight: bold;
+}
+.our-teacher {
+    font-family: Roboto;
+    font-weight: bold;
+    margin-top: -50px;
+    font-size: 50px;
+    margin-left: 650px;
+}
+.teacher-content img {
+    float:left;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-right: 10px;
+    height: 450px;
+    margin-top: 20px;
+    width: auto;
+    overflow: hidden;
+}
+.teacher-content img:hover{
+    scale: 1.01;
+
+}
+.teacher-content p {
+    font-size: 30px;
+    font-family:'Open Sans';
+}
+.teacher-content {
+    background-color: #f7f4ee;
+}
+
+.teacher-content1{
+    opacity: 0; /* Initial state */
+  transform: translateY(50px); /* Move it slightly down */
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.teacher-content1.visible {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.properties {
+    text-align:left;
+    background-color:#f7f4ee;
+    font-family: Roboto, 'Times New Roman';
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.title-properties {
+    font-weight: bold;
+    font-size:50px;
+    text-align: center;
+    opacity: 0; /* Initial state */
+    transform: translateY(50px); /* Move it slightly down */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    font-family: Roboto;
+}
+.title-properties.visible {
+    opacity: 1;
+    transform: translateY(0); 
+}
+.leader {
+    text-align: left;
+    opacity: 0;
+    transform: translateX(100px); /* Move it slightly down */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    font-family: Roboto;
+    margin-bottom: 5px;
+}
+.leader.visible {
+    opacity: 1;
+    transform: translateX(0)
+}
+.vice {
+    text-align:left;
+    margin-bottom: 5px;
+    opacity: 0;
+    transform: translateX(100px); /* Move it slightly down */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.vice.visible {
+    opacity: 1;
+    transform: translateX(0)
+}
+.secretary {
+    text-align: left;
+    margin-bottom: 5px;
+    opacity: 0;
+    transform: translateX(100px); /* Move it slightly down */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.secretary.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+.security {
+    text-align: left;
+    opacity: 0;
+    transform: translateX(100px); /* Move it slightly down */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.security.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
